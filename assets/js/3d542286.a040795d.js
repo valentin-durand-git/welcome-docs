@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwelcome_docs=self.webpackChunkwelcome_docs||[]).push([["932"],{1649(e){e.exports=JSON.parse('{"tags":[{"label":"api","permalink":"/welcome-docs/docs/tags/api","count":1},{"label":"architecture","permalink":"/welcome-docs/docs/tags/architecture","count":1},{"label":"onboarding","permalink":"/welcome-docs/docs/tags/onboarding","count":1}]}')}}]);
