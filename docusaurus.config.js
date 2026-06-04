@@ -31,7 +31,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           // Lien "Modifier cette page" → pointe vers ton repo
-          editUrl: 'https://github.com/welcoming-group/welcome-docs/tree/main/',
+          editUrl: 'https://github.com/valentin-durand-git/welcome-docs/tree/main/',
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
         },
