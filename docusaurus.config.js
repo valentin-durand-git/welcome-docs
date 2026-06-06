@@ -41,6 +41,20 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'velotaf',
+        path: 'velotaf-docs',
+        routeBasePath: 'velotaf',
+        sidebarPath: './sidebars-velotaf.js',
+        showLastUpdateTime: true,
+        showLastUpdateAuthor: true,
+      },
+    ],
+  ],
+
   themeConfig: ({
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
@@ -57,7 +71,14 @@ const config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Documentation',
+          label: 'Taff',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'velotafSidebar',
+          docsPluginId: 'velotaf',
+          position: 'left',
+          label: '🚲 VéloTaf',
         },
         {
           href: 'https://github.com/valentin-durand-git',
@@ -81,6 +102,7 @@ const config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ['dart', 'bash', 'sql'],
     },
   }),
 };
